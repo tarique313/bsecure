@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BSecure</title>
+
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- SmartMenus jQuery Bootstrap Addon CSS -->
+    <link href="../cs/jquery.smartmenus.bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<style>
+body  {
+    background-image: url("../img/bgnoise_lg.jpg");
+    
+}
+
+th{
+  color: black;
+}
+p{
+  color: black;
+}
+
+li,ol{
+  color: black;
+}
+
+th{
+  text-align: center;
+}
+td{
+  text-align: justify;
+}
+</style>
+
+
+  </head>
+
+  <body>
+
+
+      <!-- Static navbar -->
+      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html">BSecure</a>
+          </div>
+          <div class="navbar-collapse collapse">
+          
+            <!-- Left nav -->
+            <ul class="nav navbar-nav">
+              <li><a style="font-size: 18px;" href="../index.html">Home</a></li>
+              <li><a style="font-size: 18px;" href="#">Service <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a style="font-size: 18px;" href="#">Cyber Security Awareness</a></li>
+                  
+ <li class="divider"></li>
+                  
+                  <!-- <li class="dropdown-header">Nav header</li> -->
+                  <!-- <li><a href="#">Separated link</a></li> -->
+                  <li><a style="font-size: 18px;" href="#">Training <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a style="font-size: 18px;" href="/bsecure/service/javascript.html">JavaScript</a></li>
+                      <li><a style="font-size: 18px;" href="/bsecure/service/c.html">C</a></li>
+                      <li><a style="font-size: 18px;" href="/bsecure/service/cpp.html">C++</a></li>
+                      <li><a style="font-size: 18px;" href="#">X86 Assembly</a></li>
+                      <li><a style="font-size: 18px;" href="#">Reverse Engineering</a></li>
+                      <li><a style="font-size: 18px;" href="#">Ruby on Rails</a></li>
+                      <li><a style="font-size: 18px;" href="#">PHP and MySQL</a></li>
+                      <!-- <li><a href="#">A long sub menu <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Something else here</a></li>
+                          <li class="disabled"><a class="disabled" href="#">Disabled item</a></li>
+                          <li><a href="#">One more link</a></li>
+
+                        </ul>
+                      </li>
+                      <li><a href="#">Another link</a></li>
+                      <li><a href="#">One more link</a></li> -->
+                    </ul>
+                  </li>
+                  <li><a style="font-size: 18px;" href="#">Penetration Testing <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a style="font-size: 18px;" href="#">Web Site Penetration Testing</a></li>
+                      <li><a style="font-size: 18px;" href="#">Network Penetration</a></li>
+                      <li><a style="font-size: 18px;" href="#">Malware Analysis</a></li>
+                      </ul> 
+                      </li>
+                </ul>
+              </li>
+              <li><a style="font-size: 18px;" href="#">About Us</a></li>
+              <li><a style="font-size: 18px;" href="#">Contact Us</a></li>
+            </ul>
+          
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="https://www.facebook.com/bootsnipp"><i id="social" class="fa fa-facebook-square fa-3x social-fb"></i></a></li>
+	            <li><a href="https://twitter.com/bootsnipp"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a></li>
+	            <li><a href="https://plus.google.com/+Bootsnipp-page"><i id="social" class="fa fa-google-plus-square fa-3x social-gp"></i></a></li>
+	            <li><a href="mailto:bootsnipp@gmail.com"><i id="social" class="fa fa-envelope-square fa-3x social-em"></i></a></li>
+</ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container -->
+      </div>
+<br>
+<br>
+<br>
+<br>
+<!-- Social Footer, Colour Matching Icons -->
+<!-- Include Font Awesome Stylesheet in Header -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- // -->
+<div class="container">
+<div class="row">
+
+<!-- <ol class="breadcrumb" style="opacity: 0.1; color: black;">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Service</a></li>
+  <li class="active">C</li>
+</ol>
+ -->
+<!-- Programing in C -->
+
+<h1 align="center" style="color: black;">Introduction to C Programming</h1><hr>
+
+<br> 
+<p><b>Course Name:</b> <u><em>Introduction to C Programming</em></u></p><br>
+<p><b>Difficulty:</b> Medium</p><br>
+<p><b>Prerequisite:</b> None</p><br>
+<p><b>Course Duration:</b> <b>16</b> classes (<b>2</b>hrs/class)</p><br>
+<p><b>Course Fee : 6000</b> Tk</p><br>
+<p><b>Contact no:</b>+8801752195703, +8801914221142</p><br>
+<p><b>Address:</b> Flat# D-2, House# 32/A ( 3rd floor), Road# 2, Dhanmondi, Dhaka-1209</p>
+<hr>
+<br>
+<p><u><b>Course Objective:</b></u></p>
+<p>This course will introduce the basic and intermediate concepts of C programming language.
+During this course students will learn the basics of C programming and at the later part they will be introduced to more advanced topics. Also this course will include real life examples and implementations of C programming.
+</p><br>
+
+<p><u><b>Course Scope:</b></u></p>
+<br>
+<p>After completing this course students will be able to understand:</p><br>
+<div class="container">
+<ol>
+  <li>System Programming (Linux, Windows) concepts.</li>
+  <li style="color: black;">Graphics (OpenGL) programming.</li>
+  <li>Implement and understand Operating System concepts.</li>
+  <li>Network programming (TCP/UDP, etc protocol )</li>
+  <li>Working with Databases</li>
+  <li>Design and implementation of various algorithms.</li>
+
+</ol><br>
+<br>
+
+<table class="table table-bordered" style="color: black;">
+    <!-- <thead>
+      <tr class="info">
+        <th>Class</th>
+        <th>Topics</th>
+        
+      </tr>
+    </thead> -->
+    <tbody>
+      <tr>
+        <td><b>Class 1</b></td>
+
+      <td>
+
+  <ul>
+  <li>A little history of  C .</li>
+  <li>Technical preview of C language.</li>
+  <li>Introducing real life C projects.</li>
+  <li>Detail discussion on how this course will move forward.</li>
+  <li>“Hello World !” in C (C program architecture)</li>
+  <li>C compiler installation and other necessary instructions</li>
+<hr>
+</ul></td>
+      </tr>
+<hr>
+      <tr>
+        <td><b>Class 2</b></td>
+      <td>
+  <ul>
+  <li>C data type.</li>
+  <li>Variable</li>
+  <li>Keywords, Identifier & Modifier</li>
+  <li>Run simple programs</li>
+  <li>Output formatting</li>
+<hr>
+
+</ul></td>
+      </tr>
+
+
+      <tr>
+        <td><b>Class 3</b></td>
+      <td>
+  <ul>
+  <li>Source & Header file</li>
+  <li>Operator</li>
+  <li>Expression & Statement</li>
+  <li>Custom data type (typedef)</li>
+  <li>Looping (for, while, do while)</li>
+  <li>Assignment 1</li>
+<hr>
+</ul></td>
+      </tr>
+
+
+      <tr>
+        <td>Class 4</td>
+      <td>
+  <ul>
+  <li>Branching (if , else, goto, break, continue).</li>
+  <li>Basic concept of Pointer</li>
+  <li>Pointer examples</li>
+  <li>Assignment 2</li><hr>
+</ul></td>
+      </tr>
+       <tr>
+        <td><b>Class 5</b></td>
+      <td>
+  <ul>
+  <li>Array</li>
+  <li>Array & Pointer</li>
+  <li>Multidimensional array</li>
+  <li>Assignment 3</li>
+<hr>
+
+</ul></td>
+      </tr>
+       <tr>
+        <td><b>Class 6</b></td>
+      <td>
+  <ul>
+  <li>String</li>
+  <li>String examples</li>
+  <li>String functions</li>
+  <li>Review of Pointer & Array</li>
+  <li>Assignment 4</li>
+ <hr>
+
+</ul></td>
+      </tr>
+       <tr>
+        <td><b>Class 7</b></td>
+      <td>
+  <ul>
+  <li>Function</li>
+  <li>Variable Scope</li>
+  <li>Main function analysis</li>
+  <li>Pass by value & Pass by reference</li>
+  <li>Assignment 5</li>
+  
+<hr>
+</ul></td>
+      </tr>
+       <tr>
+        <td><b>Class 8</b></td>
+      <td>
+  <ul>
+  <li>Brief introduction to Compiling & Linking</li>
+  <li>Structure</li>
+  <li>Concept of Object</li>
+  <li>Assignment 6</li>
+  <hr>
+</ul>
+</td>
+</tr>
+
+<tr>
+        <td><b>Class 9</b></td>
+      <td>
+  <ul>
+  <li>Union</li>
+  <li>Difference between Structure & Union</li>
+  <li>Pointer to Structure</li>
+  <li>How to use structure</li>
+  <li>Assignment 7</li><hr>
+</ul>
+</td>
+</tr>
+
+<tr>
+        <td><b>Class 10</b></td>
+      <td>
+  <ul>
+  <li>Storage Classes</li>
+  <li>C Preprocessor</li>
+  <li>C Memory Model</li>
+  <li>Assignment 8</li><hr>
+</ul>
+</td>
+</tr>
+
+<tr>
+        <td><b>Class 11</b></td>
+      <td>
+  <ul>
+  <li>Stack and Heap memory</li>
+  <li>Use of malloc() and free() function</li>
+  <li>Assignment 9</li><hr>
+  
+</ul>
+</td>
+</tr>
+
+<tr>
+        <td><b>Class 12</b></td>
+      <td>
+  <ul>
+  <li>Function Pointer</li>
+  <li>Advanced Pointer discussion</li>
+  <li>Assignment 10</li><hr>
+ 
+</ul>
+</td>
+</tr>
+
+<tr>
+        <td><b>Class 13</b></td>
+      <td>
+  <ul>
+  <li>I/O introduction</li>
+  <li>FILE  introduction</li>
+  <li>Read , Write from a file</li>
+  <li>Assignment 11</li><hr>
+</ul>
+</td>
+</tr>
+
+<tr>
+        <td><b>Class 14</b></td>
+      <td>
+  <ul>
+  <li>Command Line argument</li>
+  <li>Using Math library</li>
+  <li>Revision of Pointer, Function & Structure</li>
+  <li>Assignment 12</li><hr>
+</ul>
+</td>
+</tr>
+
+<tr>
+        <td><b>Class 15</b></td>
+      <td>
+  <ul>
+  <li>Introducing Network Programming (TCP/IP)</li>
+  <li>Run a simple Client Server program</li>
+  <li>Revision of C memory model</li><hr>
+ 
+</ul>
+</td>
+</tr>
+<td><b>Class 16</b></td>
+      <td>
+  <ul>
+  <li>Q & A</li>
+  <li>Discussion of any topic preferred by the students</li><hr>
+
+ 
+</ul>
+</td>
+</tr>
+          </tbody>
+  </table>
+<br>
+
+<!-- End of programming in C -->
+</div>
+<div class="navbar navbar-default navbar-fixed-bottom" style="  opacity: 0.9;">
+    <div class="container">
+      <p class="navbar-text pull-left">© 2015 BSecure
+           
+      </p>
+      
+      <a href="http://youtu.be/zJahlKPCL9g" class="navbar-btn btn-danger btn pull-right">
+      <span class="glyphicon glyphicon-star"></span>  Subscribe on YouTube</a>
+    </div>
+    
+    
+  </div>
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- SmartMenus jQuery plugin -->
+    <script type="text/javascript" src="../js/jquery.smartmenus.js"></script>
+
+    <!-- SmartMenus jQuery Bootstrap Addon -->
+    <script type="text/javascript" src="../js/jquery.smartmenus.bootstrap.js"></script>
+
+
+
+
+  </body>
+</html>
